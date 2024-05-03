@@ -112,7 +112,6 @@ export default function Nav() {
             <Linkedin className='h-[1.2rem] w-[1.2rem]' />
           </a>
         </Button>
-        <ModeToggle />
       </ul>
     </header>
   );
