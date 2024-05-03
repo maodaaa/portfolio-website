@@ -1,6 +1,6 @@
 ## Credits
 
-This personal website is inspired by the design of [Brittany Chiang's website](https://brittanychiang.com/), and the implementation is based on the repository forked from [0xAlexander]([https://github.com/0xAlexander](https://github.com/0xAlexander/my-website). All design credits go to Brittany Chiang.
+This personal website is inspired by the design of [Brittany Chiang's website](https://brittanychiang.com/), and the implementation is based on the repository forked from [0xAlexander](https://github.com/0xAlexander/my-website). All design credits go to Brittany Chiang.
 
 ### Implementation Credits
 
