@@ -1,38 +1,36 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { ThemeProvider } from "@/components/ui/theme-provider";
-import { Analytics } from "@vercel/analytics/react";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import { ThemeProvider } from '@/components/ui/theme-provider';
+import { Analytics } from '@vercel/analytics/react';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL('https://maodaaa.engineer'),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: 'https://maodaaa.engineer',
   },
-  title: "Alexander Meikopoulos",
-  description:
-    "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
+  title: 'Maorid Manarul Hidayat',
+  description: 'Maorid Manarul Hidayat is a Android Software Engineer.',
   keywords:
-    "Alexander Meikopoulos, Front-end Engineer, Project Leader, Web Development, Web3, Decentralized Applications, Quality Assurance, Software Engineering, Blockchain, Cryptography",
+    'Maorid Manarul Hidayat, Software Engineer, Android Developer, Flutter Developer, Mobile Developer',
   openGraph: {
-    locale: "en_US",
-    siteName: "Alexander Meikopoulos",
-    type: "website",
-    title: "Alexander Meikopoulos",
-    description:
-      "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
-    url: "https://meikopoulos.com",
+    locale: 'en_US',
+    siteName: 'Maorid Manarul Hidayat',
+    type: 'website',
+    title: 'Maorid Manarul Hidayat',
+    description: 'Maorid Manarul Hidayat is a Android Software Engineer.',
+    url: 'https://maodaaa.engineer',
     images: [
       {
-        url: "./og-large-meik.jpg",
+        url: './og-maorid.png',
       },
     ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Alexander Meikopoulos",
+    card: 'summary_large_image',
+    title: 'Maorid Manarul Hidayat',
   },
 };
 
@@ -42,11 +40,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang='en' className='scroll-smooth'>
       <body className={inter.className}>
         <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
+          attribute='class'
+          defaultTheme='dark'
           enableSystem
           disableTransitionOnChange
         >
