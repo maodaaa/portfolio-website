@@ -50,7 +50,7 @@ export default function Nav() {
           <Avatar className='w-24 lg:w-36 h-auto border-2 border-primary bg-secondary'>
             <AvatarImage src='./avatar.png' />
             <AvatarFallback className='w-24 h-24 lg:w-36 lg:h-36 rounded-full border-1 border-primary'>
-              AM
+              M
             </AvatarFallback>
           </Avatar>
         </div>
