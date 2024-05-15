@@ -34,7 +34,7 @@ const jobProjects = [
     description:
       'Anime Verse is an Indonesian-language anime streaming application that provides easy and quick access to find the latest updates on currently airing or completed anime. With search features based on title and genre, users can easily discover their favorite anime. Additionally, users can save anime to their list of favorites for easier access in the future.',
     skills: ['Flutter', 'Dart', 'Bloc', 'Get.it', 'SQLite', 'Rest Api'],
-    link: '',
+    link: 'https://play.google.com/store/apps/details?id=com.majikoding.animeverse',
   },
   {
     imagePath: '/github_user.png',
